@@ -1,0 +1,7 @@
+{
+  "blacklist": [
+    "badsite.com",
+    "phishybank.net",
+    "malicious.example"
+  ]
+}
