@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Phishing Detector",
   "version": "1.0",
-  "description": "Detects phishing websites and lets users report them.",
+  "description": "Detects phishing websites and redirects users to a warning page.",
   "permissions": ["tabs", "scripting", "webNavigation"],
   "host_permissions": ["<all_urls>"],
   "background": {
