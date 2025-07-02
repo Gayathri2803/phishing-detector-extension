@@ -1,6 +1,6 @@
 chrome.webNavigation.onCompleted.addListener(async ({ tabId, url }) => {
   try {
-    const response = await fetch("https://raw.githubusercontent.com/Gayathri2803/phishing-list/main/phishing-list.json");
+    const response = await fetch("https://raw.githubusercontent.com/Gayathri2803/phishing-detector-extension/main/phishing-list.json");
     const data = await response.json();
 
     const hostname = new URL(url).hostname;
